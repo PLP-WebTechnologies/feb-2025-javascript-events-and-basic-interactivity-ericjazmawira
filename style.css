@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .slideshow img {
+    width: 100%;
+    height: auto;
+    transition: opacity 1s ease-in-out;
+    opacity: 1;
+  } 
+  /* When changing the image, briefly fade out */
+  .fade-out {
+    opacity: 0;
+  } 
+  
+  .tabs {
+    margin-top: 20px;
+  }
+  
+  .tab-content {
+    display: none;
+    margin-top: 10px;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  #formMessage {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .success {
+    color: green;
+  }
+  
+  .error {
+    color: red;
+  }
+  
